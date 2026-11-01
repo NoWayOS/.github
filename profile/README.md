@@ -39,4 +39,4 @@ To report a vulnerability, please write privately, as each repository's `SECURIT
 
 [www.nowayos.com](https://www.nowayos.com) · [Getting started](https://www.nowayos.com/docs/getting-started) · [Security and evidence](https://www.nowayos.com/security) · [Glossary](https://www.nowayos.com/glossary) · [Questions](https://www.nowayos.com/faq)
 
-NoWayOS is sponsored by Adappt.
+NoWayOS is sponsored by Adappt.ai.
