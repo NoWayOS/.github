@@ -23,13 +23,14 @@ When everything depends on it, give it one job.
 
 | Project | What it is | Licence |
 | --- | --- | --- |
-| [**NoWayOS**](https://github.com/NoWayOS/nowayos) | The Single Purpose OS. Protection-domain patterns on seL4 and Microkit, typed messages, drivers, networking and a native user interface. | MIT OR Apache-2.0 (intended) |
+| [**NoWayOS**](https://github.com/NoWayOS/nowayos) | The Single Purpose OS. Protection-domain patterns on seL4 and Microkit, typed messages, drivers, networking and a native user interface. | MIT OR Apache-2.0 |
 | [**Screen Compiler**](https://github.com/NoWayOS/screen-compiler) | Design in React. Ship native Rust. No browser on the device. | MIT |
-| [**Showcase**](https://github.com/NoWayOS/showcase) | Secure kiosks you can run on a Raspberry Pi. | MIT OR Apache-2.0 (intended) |
+| [**Showcase**](https://github.com/NoWayOS/showcase) | Secure applications you can run on a Raspberry Pi. | MIT OR Apache-2.0 |
+| [**Defence Agent**](https://github.com/NoWayOS/defence-agent) | The gates every contribution must pass, out of reach of the pull request. | MIT OR Apache-2.0 |
 
 ### Where it stands
 
-In development and not ready for production. It runs in QEMU and on the Raspberry Pi 5; NXP i.MX8 is the intended production hardware. The projects are intended to be open source, and the repositories are being prepared for publication.
+In development and not ready for production. It runs in QEMU and on the Raspberry Pi 5; NXP i.MX8 is the intended production hardware. All four projects are open source: clone them, build them, open an issue.
 
 seL4 has machine-checked proofs of correctness and security for specific configurations. NoWayOS uses seL4's mixed-criticality configuration, whose AArch64 proofs are in progress, so no NoWayOS image is inside seL4's completed proofs today.
 
